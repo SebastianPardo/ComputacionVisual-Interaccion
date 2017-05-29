@@ -1,0 +1,97 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[PlDriver]
+MemConfigValue=C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\CONFIG\debugger\TexasInstruments\MSP432P401R.ddf
+[Jet]
+DisableInterrupts=0
+LeaveRunning=0
+MultiCoreRunAll=0
+[ArmDriver]
+EnableCache=1
+[XdsDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+xds110serialNo=M4321005
+xds110foundProbes=
+xdsResetStyle=0
+xdsResetStrategy=2
+[DebugChecksum]
+Checksum=1845967136
+[CodeCoverage]
+Enabled=_ 0
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[Disassembly]
+MixedMode=1
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[CallStack]
+ShowArgs=0
+[watch_formats]
+Fmt0={W}1:ca	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$}.130.7" 0 0 1 "" 0 "" 0
+Count=1
+[Aliases]
+A0=_ "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h" ""
+A1=_ "C:\Users\Francisco Meluk\Desktop\TD Oct 19 16\ej adc\wb ej ADC\serial_b.cpp" ""
+A2=_ "C:\Users\Francisco Meluk\Documents\IAR EXAMPLES\MSP432\Sem 2 16 rev c iar 770\Plantilla red\main.c" ""
+A3=_ "C:\Users\Francisco Meluk\Documents\IAR EXAMPLES\MSP432\Sem 2 16 rev c iar 770\Plantilla\main.c" ""
+A4=_ "C:\Users\Francisco Meluk\Documents\IAR EXAMPLES\MSP432\Sem 2 16 rev c iar 770\Plantilla\startup_msp432p401r_ewarm.c" ""
+A5=_ "C:\Users\Francisco Meluk\Documents\IAR EXAMPLES\MSP432\Sem 2 16 rev c iar 770\Plantilla\system_msp432p401r.c" ""
+A6=_ "C:\Users\USUARIO\Documents\Iar my examples\Sem 02 16\Oct 19 ejemplos\wb\configs.cpp" ""
+Count=7
+SuppressDialog=0
