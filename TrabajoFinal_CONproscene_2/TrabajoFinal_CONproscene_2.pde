@@ -58,7 +58,9 @@ void setup() {
 }
 void draw() {    
   background(0);
-  box(10,10,10);
+  rotateX(2.0);
+  rotateY(2.0);
+  box(50,50,50);
   scene.drawFrames();
 }
 
