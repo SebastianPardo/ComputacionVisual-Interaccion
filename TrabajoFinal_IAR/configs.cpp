@@ -126,7 +126,7 @@ void configADC(void){
 
     /* Configuring GPIOs for Analog In */
     MAP_GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_P5,
-            GPIO_PIN5 | GPIO_PIN4 | GPIO_PIN2 | GPIO_PIN1, GPIO_TERTIARY_MODULE_FUNCTION);
+            GPIO_PIN5 | GPIO_PIN4 |GPIO_PIN0 | GPIO_PIN6, GPIO_TERTIARY_MODULE_FUNCTION);
 
     /* Configuring ADC Memory (ADC_MEM0 - ADC_MEM3) (A0 - A3)  with no repeat)*/
     MAP_ADC14_configureMultiSequenceMode(ADC_MEM0, ADC_MEM3, false);
@@ -136,9 +136,9 @@ void configADC(void){
     MAP_ADC14_configureConversionMemory(ADC_MEM1, ADC_VREFPOS_AVCC_VREFNEG_VSS,
     ADC_INPUT_A1, false);
     MAP_ADC14_configureConversionMemory(ADC_MEM2, ADC_VREFPOS_AVCC_VREFNEG_VSS,
-    ADC_INPUT_A2, false);
+    ADC_INPUT_A1, false);
     MAP_ADC14_configureConversionMemory(ADC_MEM3, ADC_VREFPOS_AVCC_VREFNEG_VSS,
-    ADC_INPUT_A3, false);
+    ADC_INPUT_A2, false);
  
     /* Enabling the interrupt when a conversion on channel 3 (end of sequence)
      is complete and enabling conversions */

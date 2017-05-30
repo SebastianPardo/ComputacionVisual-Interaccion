@@ -1,12 +1,12 @@
-"C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\serial_b.cpp"
+"C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\serial_b.cpp"
 -std=c++98
 -ferror-limit=100
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\driverlib\MSP432P4xx
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\driverlib\MSP432P4xx
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\inc
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\TexasInstruments
 -I
@@ -18,11 +18,11 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\ecpp
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\driverlib\MSP432P4xx
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\driverlib\MSP432P4xx
 -I
-C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\inc
+C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\TexasInstruments
 -I

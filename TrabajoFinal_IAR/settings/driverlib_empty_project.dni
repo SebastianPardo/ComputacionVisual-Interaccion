@@ -24,7 +24,7 @@ xds110foundProbes=
 xdsResetStyle=0
 xdsResetStrategy=2
 [DebugChecksum]
-Checksum=1845967136
+Checksum=1006096214
 [CodeCoverage]
 Enabled=_ 0
 [Exceptions]
@@ -69,22 +69,15 @@ MultiCoreRunAll=1
 ShowArgs=0
 [watch_formats]
 Fmt0={W}1:ca	3	0
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
-[CallStackLog]
-Enabled=0
-[CallStackStripe]
-ShowTiming=1
 [Disassemble mode]
 mode=0
 [Breakpoints2]
 Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$}.130.7" 0 0 1 "" 0 "" 0
 Count=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
 [Aliases]
 A0=_ "C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h" ""
 A1=_ "C:\Users\Francisco Meluk\Desktop\TD Oct 19 16\ej adc\wb ej ADC\serial_b.cpp" ""
@@ -95,3 +88,10 @@ A5=_ "C:\Users\Francisco Meluk\Documents\IAR EXAMPLES\MSP432\Sem 2 16 rev c iar 
 A6=_ "C:\Users\USUARIO\Documents\Iar my examples\Sem 02 16\Oct 19 ejemplos\wb\configs.cpp" ""
 Count=7
 SuppressDialog=0
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""

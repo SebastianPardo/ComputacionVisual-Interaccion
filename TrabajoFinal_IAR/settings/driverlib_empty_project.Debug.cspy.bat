@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\settings\driverlib_empty_project.Debug.general.xcl" --backend -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\settings\driverlib_empty_project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\settings\driverlib_empty_project.Debug.general.xcl" --backend -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\settings\driverlib_empty_project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\settings\driverlib_empty_project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2016 - 2\Tecnologia Digital\TD Oct 19 16\ej adc\wb ej ADC\settings\driverlib_empty_project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\settings\driverlib_empty_project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sebastián Pardo\Documents\Universidad Nacional de Colombia\2017 - 1\Computacion Visual\ComputacionVisual-Interaccion\TrabajoFinal_IAR\settings\driverlib_empty_project.Debug.driver.xcl" 
 
 @echo off 
 :end

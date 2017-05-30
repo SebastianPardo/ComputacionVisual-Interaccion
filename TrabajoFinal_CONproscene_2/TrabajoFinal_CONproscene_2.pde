@@ -44,12 +44,12 @@ public class HIDAgent extends Agent {
   @Override
   public DOF2Event feed() {
     flag = true;
-    return new DOF2Event(sliderXpos, sliderYpos, BogusEvent.NO_MODIFIER_MASK, SN_ID);  
+    return new DOF2Event(sliderXpos, sliderYpos ,BogusEvent.NO_MODIFIER_MASK, SN_ID);  
   }
 }
 
 void setup() {
-  size(600, 600, P3D);
+  size(1000, 600, P3D);
   conection("COM3");
   scene = new Scene(this);
   hidAgent = new HIDAgent(scene);
@@ -74,7 +74,6 @@ float [] movement(float dataA, float dataB, float move){
   if(dataA == dataB || dataA - 1 == dataB || dataA + 1 == dataB){
       slider = 0;
     }else{
-       //print(width/255,"-", dataA,"-",dataB, " ", move, "\n");
        if (dataA < dataB){
          dataB = dataB - 1;
          slider = -move;
@@ -96,9 +95,9 @@ void serialEvent(Serial myPort) {
   
   float moveX = width/255;
   float moveY = height/255;
-  float result []={0,0}; 
+  
+float result []={0,0}; 
    if (flag == true){
-    
     //movimiento en X
     result = movement(data1, dataX, moveX);
     dataX = result[0];
@@ -107,6 +106,6 @@ void serialEvent(Serial myPort) {
     //movimiento en Y
     result = movement(data2, dataY, moveY);
     dataY = result[0];
-    sliderYpos = result[1];  
-  }
+    sliderYpos = result[1];
+   }
 } 
